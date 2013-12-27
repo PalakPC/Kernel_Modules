@@ -1,0 +1,1 @@
+cmd_/home/palak/Kernel-Module/hello/hello.ko := ld -m elf_i386 -r -m elf_i386  --build-id -o /home/palak/Kernel-Module/hello/hello.ko /home/palak/Kernel-Module/hello/hello.o /home/palak/Kernel-Module/hello/hello.mod.o

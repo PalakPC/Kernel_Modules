@@ -1,0 +1,1 @@
+cmd_/home/palak/Kernel-Module/cmdl-arg/next_2.ko := ld -m elf_i386 -r -m elf_i386  --build-id -o /home/palak/Kernel-Module/cmdl-arg/next_2.ko /home/palak/Kernel-Module/cmdl-arg/next_2.o /home/palak/Kernel-Module/cmdl-arg/next_2.mod.o
