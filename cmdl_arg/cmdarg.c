@@ -24,9 +24,9 @@ static int __init hello_init(void)
 	int i=0;
 	for(i=0; i<num; ++i)
 	{
-		printk(KERN_INFO "%d ",message[i]);
+		printk(KERN_INFO "%d\n",message[i]);
 	}
-	printk(KERN_INFO "%d", num);
+	//printk(KERN_INFO "%d", num);
 	return 0;    // Non-zero return means that the module couldn't be loaded.   
 }
  
