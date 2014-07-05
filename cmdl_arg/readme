@@ -1,3 +1,0 @@
-Kernel Module to print command line arguments in log
-
-Run the make command and insert the module through the command "sudo insmod cmdarg.ko message=<integers separated by comma>". It prints the numbers to log which can be viewed using the command "dmesg|tail -10".

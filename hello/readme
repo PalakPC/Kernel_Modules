@@ -1,3 +1,5 @@
-Kernel Module to print "Hello World!" to log
+Kernel Module to print "Hello World!" to log.
 
-Run the "make" command and insert the module by command "sudo insmod hello.ko". It prints "Hello World!" to log which can be viewed through the command "dmesg|tail -10"
+Run the "make" command and insert the module by command "sudo insmod hello.ko". 
+
+It prints "Hello World!" to log, which can be viewed through the command "dmesg|tail -10".
