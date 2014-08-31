@@ -20,12 +20,12 @@ module_param(message, charp, 0000);	/*To take command-line argument.*/
 MODULE_PARM_DESC(message, "An array");
 
 static int __init hello_init(void) {
-	printk(KERN_INFO "%s\n", message);
-	return 0;	/*Non-zero return means that the module couldn't be loaded.*/
+   printk(KERN_INFO "%s\n", message);
+   return 0;	/*Non-zero return means that the module couldn't be loaded.*/
 }
  
 static void __exit hello_cleanup(void) {
-	printk(KERN_INFO "Cleaning up module.\n");
+   printk(KERN_INFO "Cleaning up module.\n");
 }
 
 module_init(hello_init);

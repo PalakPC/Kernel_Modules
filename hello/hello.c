@@ -14,12 +14,12 @@
 #include <linux/init.h>		/*Included for __init and __exit macros.*/
  
 static int __init hello_init(void) {
-	printk(KERN_INFO "Hello world!\n");
-	return 0;	/*Non-zero return means that the module couldn't be loaded.*/
+   printk(KERN_INFO "Hello world!\n");
+   return 0;	/*Non-zero return means that the module couldn't be loaded.*/
 }
  
 static void __exit hello_cleanup(void) {
-	printk(KERN_INFO "Cleaning up module.\n");
+   printk(KERN_INFO "Cleaning up module.\n");
 }
  
 module_init(hello_init);
