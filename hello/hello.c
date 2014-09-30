@@ -11,7 +11,7 @@
 /*Linux Kernel/LKM headers: module.h is needed by all modules and kernel.h is needed for KERN_INFO.*/
 #include <linux/module.h>	/*Included for all kernel modules.*/
 #include <linux/kernel.h>	/*Included for KERN_INFO.*/
-#include <linux/init.h>		/*Included for __init and __exit macros.*/
+#include <linux/init.h>	/*Included for __init and __exit macros.*/
  
 static int __init hello_init(void) {
    printk(KERN_INFO "Hello world!\n");

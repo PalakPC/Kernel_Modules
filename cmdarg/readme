@@ -1,9 +1,11 @@
 Kernel Module to print a string given as command-line argument to log.
 
+The code copies the string given as command-line argument to another string and then prints it to log. The second string is allocated memory through kmalloc().
+
 Run the make command and insert the module through the command 
-sudo insmod cmdarg.ko message='<string>' 
+sudo insmod cmdarg.ko message=<string> 
 
 It prints the string to log, which can be viewed using the command 
 dmesg|tail -10
 
-Can't handle spaces right now. So, incomplete.
+The string cannot contain spaces.
