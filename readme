@@ -1,4 +1,4 @@
-Kernel Modules :
+My kernel modules :
 
 1. hello -	Prints "Hello World!" to log.
 2. cmdarg -	Prints a string given as command-line argument to log. 
